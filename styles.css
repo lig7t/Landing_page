@@ -1,12 +1,23 @@
+*{
+	font-family: sans-serif;
+}
+
 body {
 	min-width: 400px;
 	display: block;
 	height: 100%;
     margin: 0;
-    padding: 0;;
+    padding: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffe9d64b;
 }
 #body-div {
+	margin-left: 400px;
+	width: 1056px;
 	min-height: 941px;
+	justify-self: center;
+	background-color: #002b47;
 }
 
 div {
@@ -17,10 +28,14 @@ div {
 
 #header-b {
 	display: flex;
-	background-color: #1f2937;
 	justify-content: space-evenly;
 	width: auto;
 }
+
+.bg1f2 {
+	background-color: #1f2937!important;
+}
+
 nav {
 	display: flex;
 	min-height: 48px;
@@ -34,10 +49,11 @@ nav {
 	display: flex;
 	min-height: 48px;
 	margin: 0;
+	padding-left: 100px;
+    margin-right: 250px;
 	color: #f9faf8;
 	align-items: center;
 	font-size: 24px;
-	padding-left: 300px;
 
 }
 
@@ -45,11 +61,87 @@ nav {
 	font-size: 18px;
 	color: #f9faf8;
 	padding-right: 12px;
+	text-decoration: none;
+	font-weight: 0;
 }
 
 
 #H-body {
 	display: flex;
-	height: 200px; 	
-	background-color: aliceblue;
+	min-height: 200px;
+	height: 300px; 	
+}
+
+h2 {
+	margin: 0;
+	padding-top: 25px;
+    margin-bottom: 25px;
+	height: 0;
+	font-size: 48px;
+	color: #f9faf8;
+	font-weight: bolder;
+	grid-area: header;
+}
+
+.p1{
+	margin: 0;
+	height: 0;
+	grid-area: footer;
+}
+
+#H-body p {
+	font-size: 18px;
+	color: #f9faf8;
+}
+
+button{
+	color: #f9faf8;
+	width: 116px;
+    height: 31px;
+	border-radius: 5px;
+	border: 2px solid #3882f6 ;
+	background-color: #3882f6;
+}
+
+#bt1 {
+	grid-area: button;
+
+}
+
+.grid-div-hb{
+	margin-left: 100px;
+	max-width: 325px;
+	height: 250px;
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px 10px;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"header header header header"
+	"header header header header"
+	"footer footer footer footer"
+	"footer footer footer footer"
+	"button button . .";
+	
+	align-content: space-between;
+}
+
+.img-h-body {
+	border-radius: 5px;
+	border: 2px solid grey;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	margin-left: auto;
+    height: 150px;
+    width: 420px;
+    margin-right: 75px;
+    margin-top: 0px;
+	justify-content: center;
+	align-self: center;
+	background: grey;
+}
+
+.p2 {
+	align-self: center;
+	justify-self: center;
 }
