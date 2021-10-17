@@ -10,13 +10,14 @@ body {
     padding: 0;
 	justify-content: center;
 	align-items: center;
-	background-color: #ffe9d64b;
+	background-color: black;
 }
 #body-div {
-	margin-left: 400px;
-	width: 1056px;
-	min-height: 941px;
+	margin-left: 250px;
+	width: 1400px;
+	min-height: 1080px;
 	justify-self: center;
+	align-items: center;
 	background-color: #002b47;
 }
 
@@ -28,6 +29,9 @@ div {
 
 #header-b {
 	display: flex;
+	
+    padding-left: 90px;
+
 	justify-content: space-evenly;
 	width: auto;
 }
@@ -41,8 +45,9 @@ nav {
 	min-height: 48px;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: auto;
-	margin-right: 70px;
+	
+    margin-left: 200px;
+
 }
 
 .ht {
@@ -57,7 +62,14 @@ nav {
 
 }
 
+.links {
+	
+    padding-right: 150px;
+
+}
+
 #header-b a {
+
 	font-size: 18px;
 	color: #f9faf8;
 	padding-right: 12px;
@@ -69,7 +81,9 @@ nav {
 #H-body {
 	display: flex;
 	min-height: 200px;
-	height: 300px; 	
+	height: 500px; 	
+	align-items: center;
+	justify-content: center;
 }
 
 h2 {
@@ -96,11 +110,13 @@ h2 {
 
 button{
 	color: #f9faf8;
-	width: 116px;
-    height: 31px;
-	border-radius: 5px;
+	width: 120px;
+    height: 36px;
+	border-radius: 9px;
 	border: 2px solid #3882f6 ;
 	background-color: #3882f6;
+	font-weight: bolder;
+	font-size: 17px;
 }
 
 #bt1 {
@@ -113,6 +129,10 @@ button{
 	max-width: 325px;
 	height: 250px;
 	display: grid;
+	
+    margin-left: 180px;
+    margin-bottom: 80px;
+
 	grid-template-columns: 100px 100px 100px 100px 10px;
 	grid-template-rows: auto;
 	grid-template-areas: 
@@ -126,22 +146,41 @@ button{
 }
 
 .img-h-body {
-	border-radius: 5px;
-	border: 2px solid grey;
+	border-radius: 2px;
+	border: 2px solid #676b7c;
 	display: flex;
-	justify-content: flex-end;
-	padding-right: 20px;
+	margin-top: 0px;
 	margin-left: auto;
-    height: 150px;
-    width: 420px;
-    margin-right: 75px;
-    margin-top: 0px;
+    margin-right: 250px;
+	margin-bottom: 46px;
+    height: 245px;
+    width: 500px;
+	padding-right: 20px;
 	justify-content: center;
 	align-self: center;
-	background: grey;
+	background: #676b7c;
 }
 
 .p2 {
 	align-self: center;
 	justify-self: center;
+}
+
+.white_box{
+	display: flex;
+	background-color: #f9faf8;
+}
+
+#body1 {
+	height: 450px;
+}
+
+#body2 {
+	display: flex;
+	height: 450px;
+	background-color: #e5e7eb;
+}
+
+#body3 {
+	height: 400px;
 }
