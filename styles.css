@@ -178,37 +178,46 @@ button{
 	grid-template-rows: 100px 100px 100px 100px;
 	grid-template-columns: auto;
 	grid-template-areas: 
-	"header header header header"
+	"header header"
 	"footer footer footer footer"
 	"bottom bottom bottom bottom"
 	;
 }
 
 h3 {
-	grid-area: footer;
+	grid-area: header;
 	justify-self: auto;
 	margin: 0;
 	padding-top: 25px;
     margin-bottom: 25px;
 	height: 0;
-	font-size: 24px;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
 	color: #1f2937;
-	font-weight: bolder;
+	font-weight: 800;
 
 }
 
-.s_img {
-	grid-area: header1;
+.S_img {
+
+	border: 3px solid #3882f6;
+	border-radius: 10px;
+    height: 160px;
+
+    width: 156px;
+    margin-top: 145px;
+
+}
+
+.gdab1d2 {
+	grid-area:footer;
 }
 
 .in2 {
-	grid-area: bottom;
 	display: grid;
-	align-content: space-between;
-	grid-template-rows: 100px 100px 100px 100px;
-	grid-template-columns: auto;
-	grid-template-areas: 
-	"header1 header1 header1 header1"
+	justify-content: space-evenly;
+	column-gap: 90px;
+	grid-template-columns: repeat(4, 100px);
 }
 
 #body2 {
