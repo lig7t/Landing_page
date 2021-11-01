@@ -2,6 +2,22 @@
 	font-family: sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900');
+
+.robotoriser{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: Normal; /*  This is just so when ever you call use this class, it uses the normal font weight by default */
+}
+	
+.rbt-300{ /* you can also name this rbt-light or whatever you like*/
+	font-weight:700;
+}
+
+.rbt-900{
+	font-weight:900;
+}
+
 body {
 	min-width: 400px;
 	display: block;
@@ -175,10 +191,11 @@ button{
 	height: 450px;
 	justify-content: center;
 	align-items: center;
+    padding-right: 20px;
 	grid-template-rows: 100px 100px 100px 100px;
 	grid-template-columns: auto;
 	grid-template-areas: 
-	"header header"
+	"header header header sidebar"
 	"footer footer footer footer"
 	"bottom bottom bottom bottom"
 	;
@@ -194,17 +211,25 @@ h3 {
 	font-size: 36px;
 	font-family: 'Roboto', sans-serif;
 	color: #1f2937;
-	font-weight: 800;
+	font-weight: 900;
+    padding-left: 100px;
 
+}
+
+.p2wb {
+	width: 160px;
+	text-align-last: center;
+	font-size: 16px;
+	letter-spacing:0.5pt ;
+	color: #2a2a2aa3;
 }
 
 .S_img {
 
-	border: 3px solid #3882f6;
-	border-radius: 10px;
+	border: 4px solid #3882f6;
+	border-radius: 20px;
     height: 160px;
-
-    width: 156px;
+    width: 160px;
     margin-top: 145px;
 
 }
@@ -216,8 +241,9 @@ h3 {
 .in2 {
 	display: grid;
 	justify-content: space-evenly;
-	column-gap: 90px;
+	column-gap: 100px;
 	grid-template-columns: repeat(4, 100px);
+    padding-top: 85px;
 }
 
 #body2 {
