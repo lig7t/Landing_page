@@ -167,7 +167,6 @@ button{
 }
 
 #white_box{
-	display: flex;
 	background-color: #f9faf8;
 }
 
@@ -176,10 +175,40 @@ button{
 	height: 450px;
 	justify-content: center;
 	align-items: center;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-template-columns: auto;
+	grid-template-areas: 
+	"header header header header"
+	"footer footer footer footer"
+	"bottom bottom bottom bottom"
+	;
 }
 
 h3 {
+	grid-area: footer;
 	justify-self: auto;
+	margin: 0;
+	padding-top: 25px;
+    margin-bottom: 25px;
+	height: 0;
+	font-size: 24px;
+	color: #1f2937;
+	font-weight: bolder;
+
+}
+
+.s_img {
+	grid-area: header1;
+}
+
+.in2 {
+	grid-area: bottom;
+	display: grid;
+	align-content: space-between;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-template-columns: auto;
+	grid-template-areas: 
+	"header1 header1 header1 header1"
 }
 
 #body2 {
