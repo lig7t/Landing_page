@@ -166,13 +166,20 @@ button{
 	justify-self: center;
 }
 
-.white_box{
+#white_box{
 	display: flex;
 	background-color: #f9faf8;
 }
 
-#body1 {
+.body1 {
+	display: grid;
 	height: 450px;
+	justify-content: center;
+	align-items: center;
+}
+
+h3 {
+	justify-self: auto;
 }
 
 #body2 {
