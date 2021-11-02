@@ -29,8 +29,8 @@ body {
 	background-color: black;
 }
 #body-div {
-	margin-left: 250px;
-	width: 1400px;
+    margin-left: 235px;
+    width: 1440px;
 	min-height: 1080px;
 	justify-self: center;
 	align-items: center;
@@ -163,18 +163,18 @@ button{
 
 .img-h-body {
 	border-radius: 2px;
-	border: 2px solid #676b7c;
+	border: 2px solid #6d747d;
 	display: flex;
 	margin-top: 0px;
 	margin-left: auto;
     margin-right: 250px;
 	margin-bottom: 46px;
-    height: 245px;
+    height: 235px;
     width: 500px;
 	padding-right: 20px;
 	justify-content: center;
 	align-self: center;
-	background: #676b7c;
+	background: #6d747d;
 }
 
 .p2 {
@@ -344,4 +344,12 @@ h3 {
 	height: 100px;
 	color: #e5e7eb;
 	background-color: #1f2937;
+	align-items: center;
+	justify-content: center;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: lighter;
+	font-family: 'roboto',sans-serif;
 }
