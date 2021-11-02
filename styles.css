@@ -284,6 +284,64 @@ h3 {
 	;
 }
 
+.sign-up{
+	display: flex;
+	color: #ffffff;
+	font-family: 'roboto', sans-serif;
+	background-color: #3882f6;
+	border: 4px solid #3882f6;
+	align-items: center;
+	border-radius: 10px;
+    height: 150px;
+    width: 1000px;
+
+}
+
+.pofb3 {
+	display: grid;
+	margin: 0;
+	padding-left: 100px;
+	align-items: end;
+	grid-template-rows: repeat(2, 50px);
+	grid-template-columns: 450px 100px 100px;
+	grid-template-areas: 
+	"header header header sidebar"
+	"footer footer footer button"
+}
+
+#bt2 {
+	grid-area: button;
+	font-size: 16px;
+	font-family: 'roboto', sans-serif;
+	border: 2px solid #e5e7eb;
+	justify-self: flex-end;
+}
+
+.p1b3 {
+	grid-area: header;
+	font-size: 24px;
+	font-family: 'roboto', sans-serif;
+	font-weight: bold;
+	margin: 0;
+}
+
+.p2b3 {
+	grid-area: footer;
+	font-size: 18px;
+	margin: 0;
+	align-self: baseline;
+}
+
 #body3 {
-	height: 400px;
+	display: flex;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer {
+	display: flex;
+	height: 100px;
+	color: #e5e7eb;
+	background-color: #1f2937;
 }
