@@ -26,7 +26,7 @@ body {
     padding: 0;
 	justify-content: center;
 	align-items: center;
-	background-color: black;
+	background-color: #000000f5;
 }
 #body-div {
     margin-left: 235px;
@@ -85,12 +85,11 @@ nav {
 }
 
 #header-b a {
-
+	font-family: 'roboto',sans-serif;
 	font-size: 18px;
 	color: #f9faf8;
 	padding-right: 12px;
 	text-decoration: none;
-	font-weight: 0;
 }
 
 
@@ -122,11 +121,12 @@ h2 {
 #H-body p {
 	font-size: 18px;
 	color: #f9faf8;
+	font-family: 'Roboto';
 }
 
 button{
 	color: #f9faf8;
-	width: 120px;
+	width: 130px;
     height: 36px;
 	border-radius: 9px;
 	border: 2px solid #3882f6 ;
@@ -149,7 +149,7 @@ button{
     margin-left: 180px;
     margin-bottom: 80px;
 
-	grid-template-columns: 100px 100px 100px 100px 10px;
+	grid-template-columns: 100px 100px 100px 125px 10px;
 	grid-template-rows: auto;
 	grid-template-areas: 
 	"header header header header"
@@ -170,7 +170,7 @@ button{
     margin-right: 250px;
 	margin-bottom: 46px;
     height: 235px;
-    width: 500px;
+    width: 520px;
 	padding-right: 20px;
 	justify-content: center;
 	align-self: center;
@@ -180,10 +180,11 @@ button{
 .p2 {
 	align-self: center;
 	justify-self: center;
+	font-weight: lighter;
 }
 
 .white_box{
-	background-color: #f9faf8;
+	background-color: #ffffff;
 }
 
 .body1 {
@@ -212,8 +213,7 @@ h3 {
 	font-family: 'Roboto', sans-serif;
 	color: #1f2937;
 	font-weight: 900;
-    padding-left: 100px;
-
+    padding-left: 145px;
 }
 
 .p2wb {
@@ -222,13 +222,14 @@ h3 {
 	font-size: 16px;
 	letter-spacing:0.5pt ;
 	color: #1f2937;
+	font-weight: 300;
 }
 
 .S_img {
 
 	border: 4px solid #3882f6;
 	border-radius: 20px;
-    height: 160px;
+    height: 170px;
     width: 160px;
     margin-top: 145px;
 
@@ -241,7 +242,7 @@ h3 {
 .in2 {
 	display: grid;
 	justify-content: space-evenly;
-	column-gap: 100px;
+	column-gap: 110px;
 	grid-template-columns: repeat(4, 100px);
     padding-top: 85px;
 }
@@ -253,34 +254,45 @@ h3 {
 	font-family: 'roboto',sans-serif;
 	font-weight: 100;
 	color: #1f2937;
+	margin-top: 9px;
+	margin-bottom: 9px;
 }
 
 .SB {
-	grid-area: footer;
 	font-size: 24px;
 	font-style: normal;
 	font-family: 'roboto',sans-serif;
 	font-weight: bold;
 	color: #1f2937;
+
+    padding-left: 530px;
+    padding-bottom: 35px;
+
+	width: 300px;
+	
 }
 
 #body2 {
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	height: 450px;
+	height: 430px;
 	background-color: #e5e7eb;
 
 }
 
 .body2dvgrd {
-	display: grid;
+	display: inline-grid;
+	justify-content: center;
+	align-items: center;
+	width: 900px;
+	margin-top: 20px;
 	grid-template-columns: repeat(4, 200px);
 	grid-template-rows: repeat(3, 80px);
 	grid-template-areas: 
 	"header header header header"
 	"header header header header"
-	"bottom bottom bottom footer"
+	"bottom bottom footer footer"
 	;
 }
 
@@ -293,14 +305,14 @@ h3 {
 	align-items: center;
 	border-radius: 10px;
     height: 150px;
-    width: 1000px;
+    width: 1020px;
 
 }
 
 .pofb3 {
 	display: grid;
 	margin: 0;
-	padding-left: 100px;
+    padding-left: 120px;
 	align-items: end;
 	grid-template-rows: repeat(2, 50px);
 	grid-template-columns: 450px 100px 100px;
@@ -315,6 +327,7 @@ h3 {
 	font-family: 'roboto', sans-serif;
 	border: 2px solid #e5e7eb;
 	justify-self: flex-end;
+	width: 130px;
 }
 
 .p1b3 {
@@ -326,6 +339,7 @@ h3 {
 }
 
 .p2b3 {
+	font-family: 'roboto',sans-serif;
 	grid-area: footer;
 	font-size: 18px;
 	margin: 0;
@@ -334,7 +348,7 @@ h3 {
 
 #body3 {
 	display: flex;
-	height: 300px;
+    height: 330px;
 	justify-content: center;
 	align-items: center;
 }
